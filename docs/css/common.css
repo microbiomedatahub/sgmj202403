@@ -48,9 +48,26 @@ a:hover{
 	padding-bottom:200px;
 }
 /* ヘッダー等 --------------------------------*/
-.header{
-	text-align:center;
-	border-top:8px solid #518000;
+header {
+	width: 862px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	border-top:8px solid #e597b2;
+}
+.header-text {
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: #333;
+	margin-left: 20px; /* テキストの余白 */
+}
+.header-logo {
+	width: 161px; /* ロゴの幅 */
+	height: 80px; /* ロゴの高さ */
+	margin-right: 20px; /* ロゴの余白 */
 }
 /* メニューバー ------------------------------*/
 .left_menu{
@@ -62,28 +79,28 @@ a:hover{
 }
 .on_mouse{
 	border-bottom:1px solid #bababa;
-	border-left:5px solid #518000;
+	border-left:5px solid #e597b2;
 	width:165px;
 	padding:6px 0 6px 5px;
 	font-weight:bold;
 }
 .on_mouse:hover{
-	border-bottom:1px solid #518000;
-	background-color:#518000;
+	border-bottom:1px solid #e597b2;
+	background-color:#e597b2;
 	color:#ffffff;
 }
 .on_page{
-	border-bottom:1px solid #518000;
-	border-left:5px solid #518000;
+	border-bottom:1px solid #e597b2;
+	border-left:5px solid #e597b2;
 	width:165px;
 	padding:6px 0 6px 5px;
 	font-weight:bold;
-	background-color:#518000;
+	background-color:#e597b2;
 	color:#ffffff;
 }
 .on_page:hover{
-	border-bottom:1px solid #518000;
-	background-color:#518000;
+	border-bottom:1px solid #e597b2;
+	background-color:#e597b2;
 	color:#ffffff;
 }
 .banner{
@@ -101,7 +118,7 @@ a:hover{
 	padding:30px 0 0 15px;
 }
 .bar_top{
-	background-image:url("../images/bar.gif");
+	background-image:url("../images/bar_red.gif");
 	background-repeat:no-repeat;
 	font-weight:bold;
 	width:610px;
@@ -149,7 +166,7 @@ a:hover{
 	width:590px;
 }
 .contents_bar{
-	background-image:url("../images/bar_contents.gif");
+	background-image:url("../images/bar_contents_red.gif");
 	background-repeat:no-repeat;
 	font-size:110%;
 	font-weight:bold;
