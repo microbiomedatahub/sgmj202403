@@ -48,9 +48,26 @@ a:hover{
 	padding-bottom:200px;
 }
 /* ヘッダー等 --------------------------------*/
-.header{
-	text-align:center;
+header {
+	width: 862px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
 	border-top:8px solid #518000;
+}
+.header-text {
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: #333;
+	margin-left: 20px; /* テキストの余白 */
+}
+.header-logo {
+	width: 161px; /* ロゴの幅 */
+	height: 80px; /* ロゴの高さ */
+	margin-right: 20px; /* ロゴの余白 */
 }
 /* メニューバー ------------------------------*/
 .left_menu{
